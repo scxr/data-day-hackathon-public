@@ -1,0 +1,39 @@
+@tailwind base;
+
+@tailwind components;
+
+.animation-sweeping {
+    animation: sweeping 3s infinite ease-in-out;
+}
+
+.card {
+    @apply w-56 h-32 p-8;
+}
+
+.line {
+    @apply border-0 border-black border-dashed w-32 h-0 m-0;
+}
+
+@tailwind utilities;
+
+@keyframes sweeping {
+    0% {
+        transform: translate(0, 4px);
+    }
+    25% {
+        transform: translate(2.5px, 0);
+    }
+    50% {
+        transform: translate(0, -4px);
+    }
+    75% {
+        transform: translate(-2.5px, 0);
+    }
+    100% {
+        transform: translate(0, 4px);
+    }
+}
+
+body {
+    margin: 0;
+}
