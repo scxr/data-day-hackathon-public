@@ -46,7 +46,7 @@ twitter-scraper==0.4.2
 typing-extensions==3.7.4.2
 typing-inspect==0.6.0
 update-checker==0.17
-urllib3==1.25.9
+urllib3==1.26.5
 w3lib==1.22.0
 websocket-client==0.57.0
 websockets==8.1
